@@ -1,0 +1,47 @@
+Dicas do Prof:
+    ✔ Inicial do nome de um Componentes deve ser maiúsculo 
+    ✔ Não iremos utilizar <require("")> e sim <import React from 'react'> 
+    ✔ React DOM usa a convenção de nomenclatura camelCase. Exemplo: <class> se torna <className>
+    ✔ Tags devem ser fechadas. Exemplo: <Footer/>
+    ✔ So é possível retornar apenas um html por componente
+
+Criando um projeto em React:
+    ✔ Instalar o 'npm install -g create-react-app' @done(22-10-03 20:15)
+    ✔ Criar o projeto utilizando o comando npx create-react-app todo-app --use-npm @done(22-10-03 20:15)
+    ✔ Executar o projeto com npm start (Certifique que está na pasta todo-app) @done(22-10-03 20:15)
+
+Configurando nosso projeto:
+    ✔ Instalar o npm install styled-components @started(22-10-03 20:15) @done(22-10-03 20:15) @lasted(43s)
+    ✔ Colar dentro da pasta src a pasta assets fornecido.(Essa pasta contém todas as imagens que iremos utilizar) @done(22-10-03 20:15)
+    ✔ Dentro da pasta src colar a pasta 'views' e 'componentes' fornecidos @done(22-10-03 20:17)
+    ✔ No arquivo index.js import a view 'Home' e exclua a linha que importa o App @done(22-10-03 20:23)
+    ✔ Renderize o componente @done(22-10-03 20:23)
+    ✔ Delete: App.js; app.css; app.test.js @done(22-10-03 20:23)
+    ✔ Execute e teste o projeto @done(22-10-03 20:23)
+
+Criando o primeiro componente Footer: 
+    ✔ Criar dentro da pasta Footer o arquivo index.js e import os styles. Segue exemplo abaixo: @done(22-10-03 20:28)
+    import * as S from './styles';
+    ✔ Criar a function 'Footer' e exportar. Segue exemplo abaixo: @done(22-10-03 20:47)
+     export default Footer;
+    ✔ retun um spam  <span>ToDO - Organizando sua vida</span> @done(22-10-03 20:48)
+    ✔ Desenvolver o Footer conforme o pdf @done(22-10-03 20:52)
+
+Importando o componente Footer a views Home:
+    ✔ No arquivo views/Home/index.js importe o Footer @done(22-10-03 20:53)
+    ✔ Renderize o Footer @done(22-10-03 20:53)
+    ✔ Execute e teste o projeto @done(22-10-03 20:53)
+
+Criando o componente Header: 
+    ✔ Import a logo @done(22-10-03 21:14)
+    ✔ Crie os button conforme o pdf @done(22-10-03 21:17)
+
+Importando o componente Header a views  Home:
+    ✔ No arquivo views/Home/index.js importe o Header @done(22-10-03 21:17)
+    ✔ Renderize o Header @done(22-10-03 21:17)
+    ✔ Exclua o <h2> @done(22-10-03 21:17)
+    ✔ Execute e teste o projeto @done(22-10-03 21:17)
+  
+
+
+
