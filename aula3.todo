@@ -16,19 +16,19 @@ Criando o useState:
     ✔ Execute e teste o Projeto @done(22-10-10 21:10)
 
 Criando useEffect: 
-    ☐ No arquivo src/views/Home/index.js import o useEffect abaixo:
+    ✔ No arquivo src/views/Home/index.js import o useEffect abaixo: @done(22-10-17 19:57)
     import React, { useState, useEffect } from 'react';
-    ☐ No arquivo src/views/Home/index.js criar o useState abaixo:
+    ✔ No arquivo src/views/Home/index.js criar o useState abaixo: @done(22-10-17 20:04)
     const [tasksApi, setTasksApi] = useState([]);
-    ☐ Dentro da function 'Home' criar uma função async com o nome 'loadTasks'
-    ☐ Essa função deve carregar as tasks no tasksApi
+    ✔ Dentro da function 'Home' criar uma função async com o nome 'loadTasks' @done(22-10-17 20:35)
+    ✔ Essa função deve carregar as tasks no tasksApi @done(22-10-17 20:35)
         *Dica:setTasksApi() 
-    ☐ Criar o useEffect: o useEffect deverá chamar a função 'loadTasks' e monitorar o estado "filterActived"   
+    ✔ Criar o useEffect: o useEffect deverá chamar a função 'loadTasks' e monitorar o estado "filterActived" @done(22-10-17 20:35)
         *useEffect(()=>{
             //código
         },[//states a monitorar])
-    ☐ Substituir o tasks.map para tasksApi.map
-    ☐ Execute e teste o Projeto
+    ✔ Substituir o tasks.map para tasksApi.map @done(22-10-17 20:35)
+    ✔ Execute e teste o Projeto @done(22-10-17 20:35)
 
 Criando o Services:
     ✔ Instale o pacote axios @done(22-10-10 21:11)
