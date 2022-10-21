@@ -5,7 +5,7 @@ import Header from '../../components/Header';
 import FilterCard from '../../components/FilterCard'
 import TaskCard from '../../components/TaskCard'
 import api from '../../services/api';
-import Task from '../Task';
+
 
 // const tasks = [{ "done": false, "created": "2021-10-23T20:05:31.643Z", "_id": "101", "macaddress": "9191", "type": 2, "title": "Futebol Com a Galera", "description": "Jogar Futebol", "when": "10/05/2021", "__v": 0 },
     // { "done": false, "created": "2021-10-23T20:05:31.643Z", "_id": "102", "macaddress": "6666", "type": 7, "title": "Comprar Café", "description": "Café é Vida", "when": "11/05/2021", "__v": 0 }]
@@ -63,7 +63,6 @@ function Home() {
 
             </S.Content>
             <Footer />
-            <Task />
         </S.Container>
     )
 }
